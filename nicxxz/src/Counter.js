@@ -24,6 +24,7 @@ class Counter extends Component {
         <div>값: {this.state.number}</div>
         <button onClick={this.handleIncrease}>+</button>
         <button onClick={this.handleDecrease}>-</button>
+        <p>test</p>
       </div>
     );
   }
